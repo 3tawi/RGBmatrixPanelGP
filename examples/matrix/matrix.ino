@@ -13,8 +13,8 @@
 //uint8_t listrgbpins[6] = {25, 26, 27, 12, 13, 14};
 
 #define A    15
-#define B    16
-#define C    17
+#define B    17
+#define C    16
 #define D    4
 #define E    21
 #define CLK  0 
