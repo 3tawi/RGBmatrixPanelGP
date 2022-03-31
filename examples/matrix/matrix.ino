@@ -1,7 +1,7 @@
 
 // https://youtu.be/Hndon1lIXL0
 
-#include <RGBmatrixPanel.h>
+#include <RGBmatrixPanelGP.h>
 //                          R1, G1, B1, R2, G2, B2  RGB Pins
 //uint8_t listrgbpins[6] = {25, 26, 27, 12, 13, 14};
 
@@ -16,7 +16,7 @@
 
 // RGBmatrixPanel matrix(A, B, C, D, E, CLK, LAT, OE, true, 64);
 // RGBmatrixPanel matrix(A, B, C, D, E, CLK, LAT, OE, true, 128);
-RGBmatrixPanel matrix(A, B, C, D, CLK, LAT, OE, true, 64);
+RGBmatrixPanelGP matrix(A, B, C, D, CLK, LAT, OE, true, 64);
 // RGBmatrixPanel matrix(A, B, C, D, CLK, LAT, OE, true, 128, listrgbpins);
 
 // Similar to F(), but for PROGMEM string pointers rather than literals
