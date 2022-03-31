@@ -1,0 +1,21 @@
+{
+  "name": "RGBmatrixPanelGP",
+  "version": "1.0.0",
+  "keywords": "ESP32",
+  "description": "An Arduino library for 32x16, 32x32, 64x32, 128x32, 64x64, 128x64 RGB matrix modules.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/3tawi/RGBmatrixPanelGP"
+  },
+  "authors":
+  [
+    {
+        "name": "3tawi",
+        "youtube": "https://www.youtube.com/c/GreatProjects",
+        "maintainer": true
+    }
+  ],
+  "frameworks": "Arduino",
+  "platforms": "esp32"
+}
