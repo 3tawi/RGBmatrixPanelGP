@@ -1,9 +1,7 @@
-
 // - Lien vidéo: https://youtu.be/Hndon1lIXL0
 // - RGB matrix Panel Library: https://github.com/3tawi/RGBmatrixPanelGP
 // - Adafruit_GFX Library: https://github.com/adafruit/Adafruit-GFX-Library
 // - Adafruit_BusIO Library: https://github.com/adafruit/Adafruit_BusIO 
-// - RGB LED Matrix with an ESP32 - How to get started: https://youtu.be/0gGnr2HYCnQ
 // - Getting Started ESP32 : https://www.youtube.com/watch?v=9b0Txt-yF7E 
 // Find All "Great Projects" Videos : https://www.youtube.com/c/GreatProjects
 
