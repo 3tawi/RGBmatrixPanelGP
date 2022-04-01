@@ -350,7 +350,7 @@ uint16_t RGBmatrixPanelGP::ColorHSV(long hue, uint8_t sat, uint8_t val,
 
 void RGBmatrixPanelGP::xLine(int x0, int x1, int y, uint16_t color)
   {
-    if (y < 0 || y >= 64)
+    if (y < 0 || y >= _height)
       return;
     if (x0 > x1)
     {
@@ -360,8 +360,8 @@ void RGBmatrixPanelGP::xLine(int x0, int x1, int y, uint16_t color)
     }
     if (x0 < 0)
       x0 = 0;
-    if (x1 > 64)
-      x1 = 64;
+    if (x1 > _width)
+      x1 = _width;
     for (int x = x0; x < x1; x++)
       drawPixel(x, y, color);
   }
