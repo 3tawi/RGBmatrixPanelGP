@@ -148,7 +148,6 @@ void loop() {
       ball[i][3] *= -1;
   }
 
-
   // Draw big scrolly text on top
   matrix.setTextColor(matrix.ColorHSV(hue*4, 255, 255, true));
   matrix.setCursor(textX, 40);
