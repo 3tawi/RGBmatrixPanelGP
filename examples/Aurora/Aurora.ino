@@ -4,13 +4,13 @@
 #include <DS1307ESP.h>
 
 DS1307ESP rtc;
-uint8_t sdapin = 3, sclpin = 22; 
+uint8_t sdapin = 3, sclpin = 1; 
 //                          R1, G1, B1, R2, G2, B2  RGB Pins
 //uint8_t listrgbpins[6] = {25, 26, 27, 12, 13, 14};
 
 #define P_A    15
-#define P_B    16
-#define P_C    17
+#define P_B    17
+#define P_C    16
 #define P_D    4
 #define P_E    21
 #define P_CLK  0 
