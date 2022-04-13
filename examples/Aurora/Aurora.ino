@@ -1,5 +1,5 @@
 // REQUIRES the following Arduino libraries:
-// - Lien vidéo: https://youtu.be/FJR3LrY4Vew
+// - Lien vidéo: https://youtu.be/IvOepSKKr_c
 // - RGB matrix Panel Library: https://github.com/3tawi/RGBmatrixPanelGP
 // - Adafruit_GFX Library: https://github.com/adafruit/Adafruit-GFX-Library
 // - Adafruit_BusIO Library: https://github.com/adafruit/Adafruit_BusIO 
