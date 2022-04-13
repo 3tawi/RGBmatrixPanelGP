@@ -1,3 +1,14 @@
+// REQUIRES the following Arduino libraries:
+// - Lien vidéo: https://youtu.be/FJR3LrY4Vew
+// - RGB matrix Panel Library: https://github.com/3tawi/RGBmatrixPanelGP
+// - Adafruit_GFX Library: https://github.com/adafruit/Adafruit-GFX-Library
+// - Adafruit_BusIO Library: https://github.com/adafruit/Adafruit_BusIO 
+// - DS1307ESP Library: https://github.com/3tawi/DS1307ESP
+// - FastLED Library: https://github.com/FastLED/FastLED
+// - RGB LED Matrix with an ESP32 - How to get started: https://youtu.be/Hndon1lIXL0
+// - Getting Started ESP32 : https://www.youtube.com/watch?v=9b0Txt-yF7E 
+// Find All "Great Projects" Videos : https://www.youtube.com/c/GreatProjects
+
 
 #include <RGBmatrixPanelGP.h>
 #include <font/fontclock.h>
